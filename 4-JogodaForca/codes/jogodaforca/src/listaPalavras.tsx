@@ -1,0 +1,22 @@
+ export const palavrasForca: string[] = [
+    "banana",
+    "abacaxi",
+    "elefante",
+    "computador",
+    "girafa",
+    "laranja",
+    "morango",
+    "hipopótamo",
+    "bicicleta",
+    "sorvete",
+    "televisão",
+    "macaco",
+    "paralelepípedo",
+    "dinossauro",
+    "avestruz",
+    "eletricidade",
+    "xícara",
+    "montanha",
+    "piano",
+    "ocidental"
+];

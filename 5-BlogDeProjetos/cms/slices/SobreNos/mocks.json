@@ -1,0 +1,52 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"titulo": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Troops"
+						}
+					}
+				]
+			},
+			"imagem": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+					"width": 8640,
+					"height": 8640
+				},
+				"url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?rect=0%2C864%2C8640%2C6912&w=500&h=400",
+				"width": 500,
+				"height": 400,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 864
+					},
+					"background": "transparent"
+				},
+				"thumbnails": {}
+			},
+			"texto": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Esse qui dolor ea eiusmod id nulla magna ipsum incididunt anim cupidatat tempor ullamco elit sint."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

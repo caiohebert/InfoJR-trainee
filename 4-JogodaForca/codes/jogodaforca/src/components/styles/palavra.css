@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    text-transform: uppercase;
+    gap: 0.25em;
+}
+
+.resposta{
+    border-bottom: 0.1em solid black;
+}
+

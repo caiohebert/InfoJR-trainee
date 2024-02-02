@@ -1,0 +1,274 @@
+/* importando fontes */
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Quattrocento+Sans&display=swap');
+
+/* resetando o style */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* aplicando o fundo da pagina */
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    background: #FFFF82;
+    ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* card */
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-bird{
+    height: 492px;
+    border-radius: 0px 0px 0px 50px;
+}
+
+.bloco-direita{
+    background-color: #F5F7DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 584px;
+    height: 492px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.bloco-corpo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+/* parte textual */
+.titulo{
+    font-family:'Quattrocento Sans';
+    font-weight: 600;
+    font-size: 36px;
+    color: #111313;
+}
+
+.paragrafo{
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 400;
+    width: 524px;
+    height: 154px;
+    text-align: left;
+    color: #000000;
+}
+
+/* BLOCO BAIXO */
+.bloco-baixo{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+/* MENU SHARE */
+.container-menu{
+    width: 231.02px;
+    height: 44px;
+    align-self: flex-end;
+}
+.menu-share{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: #B7B79B;
+    ;
+    width: 231px;
+    height: 44px;
+    gap: 15px;
+    border-radius: 15px;
+    animation-name: pop-up;
+    animation-duration: 0.2s;
+}
+
+
+/* Animação do botão */
+@keyframes pop-up {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 100%;
+    }
+  }
+
+.titulo-share{
+    font-family: 'Quattrocento Sans';
+    font-size: 22px;
+    color:#F5F7DC;
+}
+
+/* botões do share */
+.facebook{
+    cursor: pointer;
+}
+
+.twitter{
+    cursor: pointer;
+}
+
+.pinterest{
+    cursor: pointer;
+}
+
+
+.rodape{
+    width: 524px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* elementos do rodape */
+.bloquinho{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.titulo2{
+    width: 200px;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.data{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;   
+    color: #000000;
+}
+
+.botao-share{
+    width: 63px;
+    height: 59px;
+    background-color: #B7B79B;
+    border: none;
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+
+
+
+/* ------------------ */
+/* Responsividade */
+@media (max-width: 800px) {    
+    /* card */
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 350px;
+        min-height: 750px;
+        padding: 10%;
+    }
+
+    .imagem-bird{
+        width: 350px;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 30px 30px 0px 0px;
+    }
+    
+    .bloco-direita{
+        max-width: 350px;
+        min-height: 548px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    
+    .bloco-corpo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .titulo{
+        font-size: 27px;
+    }
+
+    .paragrafo{
+        font-size: 22px;
+        font-weight: 400;
+        max-width: 290px;
+        min-height: 286px;
+    }
+    
+    /* BLOCO BAIXO */
+    .bloco-baixo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* MENU SHARE */
+    .menu-share{
+        max-width: 230px;
+        min-height: 34px;
+        gap: 15px;
+        border-radius: 15px;
+    }
+
+    .titulo-share{
+        font-size: 20px;
+    }
+
+    .botao-share{
+        width: 54px;
+        height: 54px;
+        border-radius: 60px;
+    }
+    
+    .rodape{
+        max-width: 320px;
+        min-height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .titulo2{
+        font-size: 18px;
+        max-width: 160px;
+    }
+
+    .data{
+        font-size: 16px;
+    }
+
+    .imagem-bosch{
+        width: 69px;
+        height: 74px;
+    }
+
+
+  }

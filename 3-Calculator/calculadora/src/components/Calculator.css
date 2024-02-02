@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* formato e tamanho de todos os botões */
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+/* O que acontece se passar o mouse por cima do botão */
+button:hover{
+    cursor: pointer;
+}
+
+/* container com a calculadora inteira */
+.calculadora{
+    background-color: #2C3333;
+    border-radius: 1em;
+    max-width: 400px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+/* bloco que contém o resultado */
+.tela{
+    display: flex;
+    overflow: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    justify-self: center;
+    width: 325px;
+    height: 100px;
+    background-color: #CBE4DE;
+    border-radius: 1em;
+}
+
+.resultado{
+    font-family: 'Lato', sans-serif;
+    color: #2E4F4F;
+    font-size: 3em;
+    max-width: 300px;
+    padding-right: 10px;
+}
+
+
+/* container de todos os botões da calculadora */
+.botoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* apenas botões que realizam operações matemáticas */
+.operacao{
+    background-color: #0E8388;
+    color: white;
+}
+
+.operacao:hover{
+    background-color: #0a5d60;
+}
+
+/* botões dos numeros e virgula */
+.numero{
+    background-color: #2E4F4F;
+    color: white;
+}
+
+.numero:hover{
+    background-color: #274444;
+}
+
+/* botões de operações secundárias (cor clara) */
+.operacao-secundaria{
+    color: #2E4F4F;
+    background-color: #CBE4DE;
+}
+.operacao-secundaria:hover{
+    background-color: #a8bcb7;
+}
+
+/* botao 0 (tem que ser maior) */
+.botao0{
+    width: 6.6em;
+    background-color: #2E4F4F;
+    color: white;
+}
+
+.botao0:hover{
+    background-color: #274444;
+}

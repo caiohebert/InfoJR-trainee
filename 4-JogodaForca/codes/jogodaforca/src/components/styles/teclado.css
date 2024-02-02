@@ -1,0 +1,65 @@
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    gap: 0.5rem;
+    width: 38rem;
+}
+
+.letra{
+    width: 3rem;
+    height: 3rem;
+    border: 0.1rem solid black;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    background:white;
+}
+
+.letra:hover:not(:disabled), .letra:focus:not(:disabled){
+    background-color:  rgb(167, 216, 241)
+}
+
+.letra.ativa{
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+}
+
+.letra.inativa{
+    opacity: 0.3;
+}
+
+.letra:disabled{
+    cursor: default;
+    background: none;
+}
+
+@media (max-width: 620px) {
+    .teclado{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(2.5rem, 1fr));
+        gap: 0.5rem;
+        width: 20rem;
+    }
+
+    .letra{
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 0.1rem solid black;
+        border-radius: 0.6rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: black;
+    }
+    
+  }
+
+  @media (max-width: 325px) {
+    .teclado{
+        gap: 0.5rem;
+        width: 12rem;
+    }
+    
+  }

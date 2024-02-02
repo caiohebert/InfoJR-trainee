@@ -1,0 +1,95 @@
+/* importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+
+/* resetando o style */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* configurando pagina */
+body {
+    font-size: 100%;
+    background: #FFFFFF;
+}
+
+/* alinhando os blocos do cabeçalho */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* welovedogs */
+.cabecalho-home {
+    /* segunda fonte? */
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+/* menu */
+.cabecalho-menu {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+/* items do menu */
+.cabecalho-menu-item {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* botão inscrever - menu*/
+.cabecalho-menu-botao {
+    background-color: rgba(126, 211, 33, 0.4);
+    width: 151px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #1C4701;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* fzer botão escurecer quando o mouse passar por ele */
+.cabecalho-menu-botao:hover {
+    background-color: #7ED321;
+}
+
+.bloco-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 45px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post-titulo{
+    font-family: 'Open Sans';
+    color: #000000;
+}
+
+.post-paragrafo{
+    width: 778px;
+    height: 185px;  
+    font-family: 'Open Sans';
+    text-align: justify;
+    color: #000000;
+}
+

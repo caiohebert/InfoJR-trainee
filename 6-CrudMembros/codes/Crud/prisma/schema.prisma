@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+// usuário a ser cadastrado
+model User {
+  id         Int      @id @default(autoincrement())
+  email      String   @unique
+  name       String?
+  age        Int
+  city       String
+  state      String
+  created_at DateTime @default(now())
+  Post       Post[]              //vários posts, por isso array
+}
+
+model Post {
+  id      Int    @id @default(autoincrement())
+  content String
+  userId  Int
+  author  User   @relation(fields: [userId], references: [id])
+  created_at DateTime @default(now())
+}

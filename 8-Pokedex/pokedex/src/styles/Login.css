@@ -1,0 +1,48 @@
+.login, .logout{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(46, 43, 43);
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(232, 232, 96);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: DM Sans;
+    transition: transform 0.3s ease;
+}
+
+.login:hover, .logout:hover{
+    transform: translateY(-3px);
+}
+
+
+h3{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: rgb(46, 43, 43);
+    font-size: 18px;
+    font-weight: 800;
+    font-family: DM Sans;
+}
+
+@media screen and (max-width: 600px) {
+    .login, .logout{
+        position: unset;
+        margin: 0;
+    }
+
+    h3{
+        margin-left: 0;
+        margin-top: 0;
+    }
+  }
+  
