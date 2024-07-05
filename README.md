@@ -4,38 +4,38 @@
 
 Uma lista de projetos que fiz durante o processo seletivo da Empresa Júnior de Informática da UFBA. Os projetos seguem um padrão de crescimento de complexidade no campo do desenvolvimento web: html + css, react, next, backend e cms.
 
-## WeLoveDogs
+## 🦮 WeLoveDogs
 * HTML e CSS
   
-## Plant Card
+## 🌲Plant Card
 * HTML, CSS e Javascript
 
-## Calculator
+## 🧮 Calculator
 * Typescript
 * React
 
-## Jogo da Forca
+## 🪢 Jogo da Forca
 * Typescript
 * React
 
-## Blog
+## ✍️ Blog
 * Typescript
 * Nextjs
 * Prismic CMS
 
-## Crud
+## 💻 Crud
 * Typescript
 * NextJs, Prisma, Express
 * Backend: SQLite
 
-## La Padarie
+## 🥖 La Padarie
 * Typescript e Styled Components
 * Nextjs
 * Backend: SQLite e Prisma
 
-## Pokedex
+## 🐭⚡ Pokedex
 * Typescript e Styled Components
 * Nextjs
-* Backend: SQLite, AWS e Prisma
+* Backend: SQLite e Prisma
 * Login: Auth0
   
