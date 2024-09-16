@@ -36,6 +36,6 @@ Uma lista de projetos que fiz durante o processo seletivo da Empresa Júnior de 
 ## 🐭⚡ Pokedex
 * Typescript e Styled Components
 * Nextjs
-* Backend: SQLite e Prisma
+* Backend: MySQL e Prisma
 * Login: Auth0
   
