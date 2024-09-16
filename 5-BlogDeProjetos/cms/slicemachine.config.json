@@ -1,6 +1,0 @@
-{
-  "repositoryName": "zemaroto",
-  "adapter": "@slicemachine/adapter-next",
-  "libraries": ["./slices"]
-}
-
